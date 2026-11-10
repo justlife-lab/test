@@ -1,0 +1,27 @@
+# dependencies
+node_modules/
+
+# next.js
+.next/
+out/
+next-env.d.ts
+
+# environment — NEVER commit secrets
+.env
+.env*.local
+.env.production
+!.env.example
+
+# vercel
+.vercel
+
+# logs & OS
+npm-debug.log*
+*.log
+.DS_Store
+Thumbs.db
+
+# editor
+.vscode/
+.idea/
+.data/
